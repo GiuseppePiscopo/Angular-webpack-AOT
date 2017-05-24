@@ -14,6 +14,5 @@ export const rootRouterConfig: Routes = [
     { path: 'home', loadChildren: './components/home/home.module#HomeModule' },
     { path: 'about', loadChildren: './components/about/about.module#AboutModule' },
     { path: 'contact', component: contactComponent },
-
     { path: 'news', loadChildren: './components/news/news.module#NewsModule' }
 ];
