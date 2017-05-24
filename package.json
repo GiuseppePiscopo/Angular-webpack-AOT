@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Angular-webpack-AOT，width AOT, lazy loader",
   "scripts": {
-    "dev:aot": "./node_modules/.bin/webpack-dev-server --config  webpack.aot.ts --color --progress",
-    "dev": "./node_modules/.bin/webpack-dev-server --config  webpack.config.js --color --inline --hot --content-base ./dist",
-    "webpack:aot": "./node_modules/.bin/webpack --config webpack.aot.ts --colors --progress",
+    "dev:aot": "webpack-dev-server --config  webpack.aot.ts --color --progress",
+    "dev": "webpack-dev-server --config  webpack.config.js --color --inline --hot --content-base ./dist",
+    "webpack:aot": "webpack --config webpack.aot.ts --colors --progress",
     "build": "npm run webpack:aot",
     "serve": "lite-server"
   },
@@ -46,7 +46,6 @@
     "webpack": "~2.3.1",
     "webpack-dev-server": "~2.4.2",
     "webpack-merge": "~1.0.2",
-
     "yargs": "~6.4.0"
   },
   "repository": {}
