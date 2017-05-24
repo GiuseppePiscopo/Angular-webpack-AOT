@@ -17,20 +17,11 @@ import { ActivatedRoute } from '@angular/router';
             display: inline-block;
             vertical-align: top
         }
-        
         `
     ],
-    template: `
-        <h2>home page</h2>
-        <div class="list">
-        </div>
-        <div class="detail">
-            <router-outlet></router-outlet>
-        </div>
-    `
+    templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
-    
 
     ngOnInit() { }
 
