@@ -28,7 +28,7 @@ Shut it down manually with `Ctrl-C`.
 
 You're ready to write your application.
 
-Open browser at http://localhost:9000.
+Open browser at http://localhost:3000.
 
 ### npm scripts
 
@@ -36,4 +36,3 @@ npm scripts defined in the `package.json`:
 
 * `npm build` - runs the ngc and webpack compiler to build the program.
 * `npm run dev` - runs the webpack-dev-server and watch all files
-
