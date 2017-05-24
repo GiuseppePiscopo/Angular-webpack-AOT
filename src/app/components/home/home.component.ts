@@ -3,22 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
     selector: 'home',
-    styles: [
-        `
-        home {
-            overflow: hidden;
-        }
-        .list {
-            width: 30%;
-            margin-right: 20px;
-            border-right: 1px solid #ccc;
-        }
-        .list, .detail {
-            display: inline-block;
-            vertical-align: top
-        }
-        `
-    ],
+    styleUrls: ['./home.component.css'],
     templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
