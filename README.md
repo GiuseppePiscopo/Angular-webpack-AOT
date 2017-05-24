@@ -30,9 +30,17 @@ You're ready to write your application.
 
 Open browser at http://localhost:3000.
 
-### npm scripts
+For a lighter development web server (not watching for file changes though), build or
+rebuild when needed with:
 
-npm scripts defined in the `package.json`:
+```bash
+npm build
+```
 
-* `npm build` - runs the ngc and webpack compiler to build the program.
-* `npm run dev` - runs the webpack-dev-server and watch all files
+then have a separate shell open where you launched
+
+```bash
+npm run serve
+```
+
+Again, open browser at http://localhost:3000.

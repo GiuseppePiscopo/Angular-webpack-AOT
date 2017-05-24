@@ -6,7 +6,8 @@
     "dev:aot": "./node_modules/.bin/webpack-dev-server --config  webpack.aot.ts --color --progress",
     "dev": "./node_modules/.bin/webpack-dev-server --config  webpack.config.js --color --inline --hot --content-base ./dist",
     "webpack:aot": "./node_modules/.bin/webpack --config webpack.aot.ts --colors --progress",
-    "build": "npm run webpack:aot"
+    "build": "npm run webpack:aot",
+    "serve": "lite-server"
   },
   "keywords": [],
   "author": "",
@@ -32,10 +33,10 @@
     "angular2-router-loader": "~0.3.5",
     "angular2-template-loader": "~0.6.2",
     "awesome-typescript-loader": "~3.1.2",
-
     "compression-webpack-plugin": "~0.3.2",
     "css-loader": "~0.27.3",
     "html-webpack-plugin": "~2.28.0",
+    "lite-server": "2.3.0",
     "raw-loader": "~0.5.1",
     "rimraf": "~2.5.4",
     "style-loader": "~0.13.1",
