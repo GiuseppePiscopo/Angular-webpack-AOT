@@ -1,9 +1,6 @@
 import { Routes } from '@angular/router';
 
-import { AboutModule } from './components/about/about.module';
 import { contactComponent } from './components/contact/contact.component';
-import { HomeModule } from './components/home/home.module';
-
 
 import { ListComponent } from './components/home/list/list.component';
 import { DetailComponent } from './components/home/detail/detail.component';
